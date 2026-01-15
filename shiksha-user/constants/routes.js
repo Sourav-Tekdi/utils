@@ -638,5 +638,16 @@ module.exports = {
         functionName: "usersHierarchyView",
       },
     },
+    {
+      sourceRoute: "/interface/v1/cohort/geographical-hierarchy/:id",
+      type: "GET",
+      inSequence: true,
+      orchestrated: true,
+      targetRoute: {
+        path: "/user/v1/cohort/geographical-hierarchy/:id",
+        type: "GET",
+        functionName: "geographicalHierarchy",
+      },
+    },
   ],
 };
