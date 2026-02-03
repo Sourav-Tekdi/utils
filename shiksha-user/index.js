@@ -10,7 +10,7 @@ const packageRouter = require('./router')
 const getPackageMeta = () => {
 	return {
 		basePackageName: 'user',
-		packageName: 'shiksha-user',
+		packageName: 'shiksha-updated-user',
 	}
 }
 
